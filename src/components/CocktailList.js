@@ -4,7 +4,6 @@ import Loading from './Loading'
 import { useGlobalContext } from '../context'
 
 const CocktailList = () => {
-<<<<<<< HEAD
   const { cocktails, loading } = useGlobalContext();
 
   if (loading) {
@@ -30,21 +29,7 @@ const CocktailList = () => {
         })}
       </div>
     </section>
-=======
-  return (
-    <div>
-      <h2>cocktail list component</h2>
-    </div>
->>>>>>> f68c5a55a819e3047eca2e2563d15f6e993a8b55
   )
 }
 
-export default CocktailList
-<<<<<<< HEAD
-
-
-// Search cocktail by name
-// www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita
-
-=======
->>>>>>> f68c5a55a819e3047eca2e2563d15f6e993a8b55
+export default CocktailList;
